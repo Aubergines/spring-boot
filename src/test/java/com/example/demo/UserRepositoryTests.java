@@ -4,7 +4,11 @@ import com.example.domain.model.User;
 import com.example.domain.repository.UserRepository;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringBootConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.context.web.WebAppConfiguration;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -14,6 +18,9 @@ import java.util.Date;
  * zhaoshuangquan@allinmd.cn
  * 2017-08-04 10:28
  */
+@RunWith(SpringJUnit4ClassRunner.class)
+@SpringBootConfiguration
+@WebAppConfiguration
 public class UserRepositoryTests {
 
     @Autowired

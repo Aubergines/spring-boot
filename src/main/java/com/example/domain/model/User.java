@@ -1,6 +1,7 @@
 package com.example.domain.model;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.io.Serializable;
@@ -10,6 +11,7 @@ import java.io.Serializable;
  * zhaoshuangquan@allinmd.cn
  * 2017-08-04 9:46
  */
+@Entity
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;

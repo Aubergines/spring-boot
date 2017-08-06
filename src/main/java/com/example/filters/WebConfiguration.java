@@ -18,6 +18,7 @@ import java.io.IOException;
  * Aubergine
  * zhaoshuangquan@allinmd.cn
  * 2017-08-03 8:54
+ * 自定义filter，可以自己定义请求过程中的处理
  */
 @Configuration
 public class WebConfiguration {
